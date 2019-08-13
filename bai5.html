@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai5:</title>
+</head>
+<body>
+<script>
+    let p = prompt("Nhap ten chom sao: ","");
+    let star1 = ["polaris","aldebaran","deneb","vega","altair","dubhe","regulus"];
+    let star2 = ["ursa minor","tarucus","cygnus","lyra","qquila","ursa major","leo"];
+    function check() {
+        for (let a =0; a<star1.length; a++){
+            if (p === star1[a]){
+                p = star2[a];
+                return p;
+                break;
+            } else {
+            }
+        }
+    }
+    
+alert(check());
+</script>
+
+</body>
+</html>
